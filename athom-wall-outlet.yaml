@@ -2,7 +2,7 @@ substitutions:
   device_name: "athom-wall-outlet"
   # friendly_name: "Athom Wall Outlet"
   project_name: "Athom Technology.Wall Outlet"
-  project_version: "1.1"
+  project_version: "2024.2"
   relay_restore_mode: RESTORE_DEFAULT_OFF
 
 esphome:
@@ -39,7 +39,7 @@ wifi:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://athom-tech/athom-configs/athom-wall-outlet.yaml
+  package_import_url: github://makerwolf1/athom-configs/athom-wall-outlet.yaml
 
 uart:
   rx_pin: RX
