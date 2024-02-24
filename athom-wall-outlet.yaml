@@ -1,13 +1,13 @@
 substitutions:
   device_name: "athom-wall-outlet"
-  # friendly_name: "Athom Wall Outlet"
+  friendly_name: "Athom Wall Outlet"
   project_name: "Athom Technology.Wall Outlet"
   project_version: "2024.2"
   relay_restore_mode: RESTORE_DEFAULT_OFF
 
 esphome:
   name: "${device_name}"
-  friendly_name: ""
+  friendly_name: "${friendly_name}"
   name_add_mac_suffix: true
   project:
     name: "${project_name}"
@@ -78,7 +78,7 @@ sensor:
     name: "Uptime Sensor"
 
   - platform: wifi_signal
-    name: "${friendly_name} WiFi Signal"
+    name: "WiFi Signal"
     update_interval: 60s
 
   - platform: cse7766
