@@ -137,10 +137,11 @@ sensor:
 
 
 button:
+  - platform: restart
+    name: Restart
   - platform: factory_reset
     name: "Reset"
     id: Reset
-
   - platform: safe_mode
     name: "Safe Mode"
     internal: false
