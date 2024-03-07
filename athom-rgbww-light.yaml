@@ -119,6 +119,8 @@ text_sensor:
       name: "IP Address"
     ssid:
       name: "Connected SSID"
+    bssid:
+      name: "Connected BSSID"
     mac_address:
       name: "Mac Address"
      
