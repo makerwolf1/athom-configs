@@ -2,7 +2,7 @@ substitutions:
   device_name: "athom-rgbww-light"
   friendly_name: "Athom RGBWW Light"
   project_name: "Athom Technology.RGBCW Bulb"
-  project_version: "1.1"
+  project_version: "2024.3"
   light_restore_mode: RESTORE_DEFAULT_ON
   color_interlock: 'true'
 
@@ -48,7 +48,7 @@ wifi:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://athom-tech/athom-configs/athom-rgbww-light.yaml
+  package_import_url: github://makerwolf1/athom-configs/athom-rgbww-light.yaml
 
 binary_sensor:
   - platform: status
